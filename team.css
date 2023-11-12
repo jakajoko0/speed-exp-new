@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+a{
+  text-decoration: none;
+}
+
+.team-start{
+    width: 100%;
+    height: 50vh;
+    background: url(img/teamwork.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-start .main-team-start{
+    width: 85%;
+    display: flex;
+    margin-top: 70px;
+}
+.main-team-start h2{
+    font-size: 69px;
+    color: #A2B4A8;
+}
+
+.team-members{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.team-members .main-team{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.main-team .title{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.title h2{
+    font-size: 33px;
+    color: #426650;
+    text-align: left;
+}
+.main-team .team-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.team-cards .card{
+width: 280px;
+margin-bottom: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.card .img-body{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.img-body .img-links{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    
+    position: absolute;
+    background-color: rgba(2, 3, 3, 0.363);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s ease;
+}
+.img-links .socialss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.socialss a{
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color:  white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialss a .fb{
+    width: 16px;
+    height: 30px;
+  }
+  .socialss a .twit{
+    width: 32px;
+    height: 26px;
+  }
+  .socialss a .ig{
+    width: 20px;
+    height: 20px;
+  }
+.img-links p{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: white;
+}
+.img-body:hover .img-links{
+    right: 0;
+  }
+  .card .designations{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7B9485;
+    margin-top: -40px;
+    z-index: 2000;
+  }
+  .designations .position{
+    display: flex;
+    width: 100%;
+align-items: center;
+  }
+  .position .color{
+    width: 5%;
+    height: 25px;
+    background-color: #1B472C;
+    
+  }
+  .position p{
+    font-size: 10px;
+    margin: 5px;
+    text-align: left;
+    color: #E8EDEA;
+  }
+  .designations .name{
+    width: 100%;
+    background-color: #F9B180;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.name p{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 15px 0;
+    color: #426650;
+}
+
+.get-in-touch{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/barrett-ward-5WQJ_ejZ7y8-unsplash.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.get-in-touch .main-get{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.main-get .writeup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.writeup p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: white;
+}
+.writeup h2{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+.main-get .services-link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-link a{
+    font-size: 14px;
+    padding: 10px 25px;
+    background-color: #18A0FB;
+    color: white;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer .main-footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  .main-footer .left-foot{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+  }
+  .left-foot p{
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  .left-foot .contact-foot{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-foot h2{
+    font-size: 15px;
+    color: white;
+  }
+  .contact-foot ul li{
+    font-size: 13px;
+    list-style: circle;
+    color: white;
+  }
+  .main-footer .middle-foot{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  }
+  .middle-foot .foot-logo{
+    width: 215px;
+    height: 59px;
+    margin-bottom: 80px;
+  }
+  .middle-foot .socials{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .socials a{
+    padding: 5px;
+    width: 47px;
+    height: 47px;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .socials a .fb{
+  width: 16px;
+  }
+  .socials a .twit{
+    width: 32px;
+  }
+  .socials a .ig{
+    width: 26px;
+  }
+  .main-footer .right-foot{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .right-foot .foot-links{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  .foot-links a{
+    font-size: 16px;
+    margin: 10px 0;
+    color: white;
+  }
+  .foot-links a:hover{
+    color: #F78F49;
+  }
+  .right-foot .official{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .official img{
+    width: 109px;
+    height: 120px;
+  }
+  footer .copyright{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .copyright span{
+    font-size: 16px;
+    text-align: center;
+    color: grey;
+  }
+  .mobile-foot{
+    display: none;
+  }
+
+@media screen and (max-width:480px){
+
+    .main-team-start h2{
+        font-size: 33px;
+    }
+    .team-members .main-team{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-team .team-cards{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .team-cards .card{
+        width: 350px;
+    }
+    .card .img-body{
+        width: 350px;
+        height: 350px;
+    }
+
+    .card .designations{
+        width: 290px;
+    }
+    .title h2{
+        font-size: 25px;
+    }
+
+    .name p{
+        font-size: 14px;
+    }
+
+    .get-in-touch .main-get{
+        width: 100%;
+    }
+    .writeup h2{
+        font-size: 30px;
+    }
+    .writeup p{
+        margin-bottom: 20px;
+    }
+    .main-get .writeup{
+        margin-bottom: 20px;
+    }
+
+    .deskt-foot{
+        display: none;
+      }
+      .mobile-foot{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .mobile-foot .main-mobile{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .main-mobile .top-mobile{
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        margin-bottom: 60px;
+      }
+      .top-mobile img{
+        width: 158px;
+        height: 43px;
+      }
+      .main-mobile .middle-mobile{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+      }
+      .middle-mobile .contact-foot{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+      }
+      .contact-foot .quote-foot{
+        width: 100%;
+      margin-bottom: 25px;
+      }
+      .quote-foot p{
+        color: white;
+        font-size: 13px;
+      }
+      .contact-foot ul li{
+        list-style: none;
+        margin-bottom: 2px;
+      }
+      .middle-mobile .foot-links{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+      }
+      .foot-links a{
+        font-size: 13px;
+      }
+      .main-mobile .socials{
+        display: flex;
+        margin-bottom: 100px;
+      }
+      .socials a{
+        margin-right: 15px;
+      }
+      .main-mobile .copyright{
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .copyright span{
+        text-align: center;
+      }
+
+      .team-start{
+        background: url(img/mobile-team.png);
+        background-position: center;
+        background-size: cover;
+      background-repeat: no-repeat;
+      height: 40vh;
+    }
+}

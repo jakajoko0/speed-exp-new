@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+
+.track-start{
+    width: 100%;
+    height: 50vh;
+    background: url(img/tracking.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.track-start .main-track-start{
+    width: 85%;
+    display: flex;
+    margin-top: 70px;
+}
+.main-track-start h2{
+    font-size: 69px;
+    color: #A2B4A8;
+}
+
+
+.tracking{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 140px;
+    padding: 20px;
+}
+.tracking .main-track{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-track .left{
+    width: 47%;
+    display: flex;
+}
+.left .status-box{
+width: 100%;
+height: 240px;
+background-color: #E5E5E5;
+border: 1px solid rgba(0, 0, 0, 0.281);
+}
+.main-track .right{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.right .title-track{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+.title-track h2{
+    font-size: 19px;
+    color: #426650;
+}
+.right form{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+form input{
+    padding: 15px;
+    color: gray;
+    font-size: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.281);;
+    outline: none;
+    margin-bottom: 10px;
+    width: 100%;
+}
+form button{
+width: 30%;
+padding: 10px 0;
+font-size: 13px;
+background-color: #F78F49;
+border: 1px solid rgba(0, 0, 0, 0.281);
+}
+
+
+.get-in-touch{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/barrett-ward-5WQJ_ejZ7y8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.get-in-touch .main-get{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.main-get .writeup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.writeup p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: white;
+}
+.writeup h2{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+.main-get .services-link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-link a{
+    font-size: 14px;
+    padding: 10px 25px;
+    background-color: #18A0FB;
+    color: white;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer .main-footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  .main-footer .left-foot{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+  }
+  .left-foot p{
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  .left-foot .contact-foot{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-foot h2{
+    font-size: 15px;
+    color: white;
+  }
+  .contact-foot ul li{
+    font-size: 13px;
+    list-style: circle;
+    color: white;
+  }
+  .main-footer .middle-foot{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  }
+  .middle-foot .foot-logo{
+    width: 215px;
+    height: 59px;
+    margin-bottom: 80px;
+  }
+  .middle-foot .socials{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .socials a{
+    padding: 5px;
+    width: 47px;
+    height: 47px;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .socials a .fb{
+  width: 16px;
+  }
+  .socials a .twit{
+    width: 32px;
+  }
+  .socials a .ig{
+    width: 26px;
+  }
+  .main-footer .right-foot{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .right-foot .foot-links{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  .foot-links a{
+    font-size: 16px;
+    margin: 10px 0;
+    color: white;
+  }
+  .foot-links a:hover{
+    color: #F78F49;
+  }
+  .right-foot .official{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .official img{
+    width: 109px;
+    height: 120px;
+  }
+  footer .copyright{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .copyright span{
+    font-size: 16px;
+    text-align: center;
+    color: grey;
+  }
+  .mobile-foot{
+    display: none;
+  }
+
+  @media screen and (max-width:480px){
+    .main-track-start h2{
+        font-size: 33px;
+      
+    }
+    .tracking .main-track{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-track .left{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .main-track .right{
+        width: 100%;
+    }
+    .right form{
+        height: 180px;
+    }
+
+    .tracking{
+        margin-bottom: 20px;
+    }
+
+
+    .get-in-touch .main-get{
+        width: 100%;
+    }
+    .writeup h2{
+        font-size: 30px;
+    }
+    .writeup p{
+        margin-bottom: 20px;
+    }
+    .main-get .writeup{
+        margin-bottom: 20px;
+    }
+
+    .deskt-foot{
+        display: none;
+      }
+      .mobile-foot{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .mobile-foot .main-mobile{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .main-mobile .top-mobile{
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        margin-bottom: 60px;
+      }
+      .top-mobile img{
+        width: 158px;
+        height: 43px;
+      }
+      .main-mobile .middle-mobile{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+      }
+      .middle-mobile .contact-foot{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+      }
+      .contact-foot .quote-foot{
+        width: 100%;
+      margin-bottom: 25px;
+      }
+      .quote-foot p{
+        color: white;
+        font-size: 13px;
+      }
+      .contact-foot ul li{
+        list-style: none;
+        margin-bottom: 2px;
+      }
+      .middle-mobile .foot-links{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+      }
+      .foot-links a{
+        font-size: 13px;
+      }
+      .main-mobile .socials{
+        display: flex;
+        margin-bottom: 100px;
+      }
+      .socials a{
+        margin-right: 15px;
+      }
+      .main-mobile .copyright{
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .copyright span{
+        text-align: center;
+      }
+
+      .team-start{
+        background: url(img/mobile-track.png);
+        background-position: center;
+        background-size: cover;
+      background-repeat: no-repeat;
+      height: 40vh;
+    }
+}
