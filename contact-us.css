@@ -8,6 +8,9 @@
 a{
   text-decoration: none;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 .contact-start{
     width: 100%;
