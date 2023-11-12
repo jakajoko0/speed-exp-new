@@ -8,6 +8,9 @@
 a{
   text-decoration: none;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 .team-start{
     width: 100%;
