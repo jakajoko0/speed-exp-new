@@ -321,7 +321,7 @@ font-size: 19px;
     .main-explain p{
         font-size: 18px;
         line-height: 1.5rem;
-        text-align: center;
+        text-align: justify;
     }
 
     .contact-us{
