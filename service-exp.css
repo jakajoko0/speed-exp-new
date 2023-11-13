@@ -316,6 +316,7 @@ footer{
     }
     .main-explain h2{
 font-size: 19px;
+        text-align: center;
     }
     .main-explain p{
         font-size: 18px;
