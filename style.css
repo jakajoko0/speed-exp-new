@@ -509,8 +509,8 @@ align-items: last baseline;
 form .form-title{
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
   margin-top: 20px;
   margin-bottom: 10px;
 }
