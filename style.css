@@ -149,10 +149,10 @@ justify-content: center;
 .tracking input{
   width: 75%;
   padding: 15px;
-  color: lightgrey;
+  color: black;
   border: 1px solid black;
   outline: none;
-  font-size: 19px;
+  font-size: 16px;
   margin-right: 5px;
 }
 .tracking .track-but{
