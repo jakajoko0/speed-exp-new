@@ -160,6 +160,9 @@ div .leftLogo img{
   width: 80%;
   padding-top: 60px;
 }
+.mobile-navbar .hamburger-icon{
+width: 35px;
+}
 
 .sidebar-open .navbar-container {
   background-color: white;
