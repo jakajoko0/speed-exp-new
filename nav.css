@@ -162,6 +162,7 @@ div .leftLogo img{
 }
 .mobile-navbar .hamburger-icon{
 width: 35px;
+  font-size: 35px;
 }
 
 .sidebar-open .navbar-container {
