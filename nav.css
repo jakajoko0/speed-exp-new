@@ -236,7 +236,7 @@ div .leftLogo img{
 
 .mobile-navbar .hamburger-icon {
   cursor: pointer;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 @media (max-width: 1111px) {
