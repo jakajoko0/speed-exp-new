@@ -841,6 +841,9 @@ footer .copyright{
     font-size: 20px;
     
   }
+    .ticker-container .ticker-text{
+    animation-delay: 0s;
+}
   .ticker-text span{
     font-size: 25px;
     margin: 0 5px;
