@@ -93,6 +93,7 @@ display: none;
   display: -webkit-inline-flex;
   white-space: nowrap;
   animation: ticker 25s linear infinite;
+    animation-delay: 0s;
 }
 .ticker-text p{
   font-size: 25px;
