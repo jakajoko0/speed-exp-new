@@ -142,6 +142,8 @@ div .leftLogo img{
 
 .mobile-navbar {
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .mobile-dropdown-content {
@@ -232,7 +234,7 @@ div .leftLogo img{
   border-radius: 5px;
 }
 
-.hamburger-icon {
+.mobile-navbar .hamburger-icon {
   cursor: pointer;
   font-size: 35px;
 }
